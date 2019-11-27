@@ -1,6 +1,6 @@
 ### Multi-label Bert Classification
 
-This implementation add useful features on bert classification: 
+This implementation adds useful features on bert classification: 
 
 1. Multi-label
 2. Focal loss weighting
