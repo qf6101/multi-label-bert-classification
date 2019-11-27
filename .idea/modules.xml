@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/znzj_modeling.iml" filepath="$PROJECT_DIR$/.idea/znzj_modeling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/multi-label-bert-classification.iml" filepath="$PROJECT_DIR$/.idea/multi-label-bert-classification.iml" />
     </modules>
   </component>
 </project>
