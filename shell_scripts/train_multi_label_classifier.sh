@@ -33,4 +33,4 @@ python -m model_train.bert.multi_label_bert_classifier \
   --train_batch_size=8 \
   --learning_rate=2e-5 \
   --num_train_epochs=30.0 \
-  --output_dir=${PROJECT_PATH}/model_data/direct_bert_classif
+  --output_dir=${PROJECT_PATH}/model_data/multi_label_bert_classif
