@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="945e1100-46b4-4be2-82a1-9882bcb88bea" name="Default Changelist" comment="add notebooks">
+      <change afterPath="$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fast_model_pb_maker/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo_model/regexp_matching_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/Trans2Json_SJKY.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/Trans2Json_UNICOM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/Trans2Json_ZZH.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/base_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/detector_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/abuse_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/blame_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/complaint_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/complaint_goods_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/complaint_logistics_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/complaint_other_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/complaint_service_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/complaint_shop_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/complaint_unknown_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/danger_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/emotion_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/grateful_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/honorific_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/impatient_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/norespect_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/notsure_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/overlysure_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/perfunctory_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/respect_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/sorry_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/emotion/tough_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/instant_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/offline_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/activity_cheap_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/activity_cheap_qa_detector_bake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/activity_gift_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/attachment_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cashback_highpraise_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cashback_refunddiff_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_color_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_function_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_material_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_qua_appeal_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_qua_color_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_qua_material_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_qua_other_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_qua_size_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_qua_smell_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_season_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_size_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_style_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/cloth_thickness_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/free_post_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/if_online_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/logistics_area_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/logistics_expressbrand_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/logistics_time_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/logistics_urgeexpress_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/price_bargaining_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/price_confusion_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/return_negotiation_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/return_postage_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/return_process_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/return_progress_qa_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_ability/wrong_chinese_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/activity_recommend_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/closewords_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/duplicate_reply_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/first_response_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/honorific_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/mining_userneed_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/oneword_reply_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/openwords_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/product_recommend_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/quick_language_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/reply_delay_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/respect_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/responsetime_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/urgeorder_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/service_attitude/urgepay_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/abuse_all.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/abuse_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/attachment_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/blame_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/check_wrong_chinese/cn_dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/check_wrong_chinese/same_pinyin_small.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/honorific_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/no_respect_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/not_abuse_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/not_blame_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/respect_any.regexp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/zhtools/Mandarin.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/aliyun_credentials_provider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/offline_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/offline_service_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/online_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/online_service_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/rabbitmq_streamer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/rabbitmq_streamer_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/run_mq_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_service/run_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/asktype_bert_classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/asktype_user_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/asktype_user_args_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_train/bert/biz2_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/direct_bert_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_train/bert/multi_label_bert_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/ebiz_merchant_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/ebiz_user_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/emotion_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_train/bert/biz1_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert/opinion_target_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_classifier/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_classifier/bert_classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_classifier/opinion_target/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_classifier/opinion_target/args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_classifier/opinion_target/data_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_classifier/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_classifier/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_proto/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_proto/bert_proto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_proto/data_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_proto/ebiz_merchant_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_proto/ebiz_user_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_proto/emotion_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_qa_match/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_qa_match/bert_qa_match.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_qa_match/data_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_qa_match/predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_qa_match/qa_match_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_relation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_relation/bert_relation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_relation/data_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train/bert_relation/emotion_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/base_predictor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/base_predictor/args_offline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/base_predictor/args_online.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/base_predictor/managed_base_predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/bert_classifier/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/bert_classifier/base_predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/bert_classifier/offline_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/bert_classifier/offline_predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/bert_classifier/online_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/bert_classifier/online_predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/direct_bert_predictor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/direct_bert_predictor/args_offline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/direct_bert_predictor/args_online.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor/direct_bert_predictor/managed_bert_classif_predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/eval_direct_bert_classifier.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/make_pb.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/run_mq_service.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/run_offline_service.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/run_offline_service_v2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/run_online_service.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/run_online_service_v2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/run_service.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/stop_mq_service.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/stop_service.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/test_direct_bert_classifier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shell_scripts/transform_to_fast_model.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/train_direct_bert_classifier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shell_scripts/train_multi_label_classifier.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell_scripts/train_opinion_target.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/emotion/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/emotion/abuse_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/emotion/blame_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/emotion/complaint_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/emotion/impatient_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/emotion/tough_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/instant_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/offline_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/activity_cheap_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/activity_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/activity_recommend_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/aftersales_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/attachment_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/cashback_refunddiff_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/cloth_function_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/color_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/delivery_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/free_post_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/inventory_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/logistics_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/material_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/mining_userneed_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/package_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/package_recommend_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/product_recommend_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/record_userneed_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/return_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/size_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/urgeorder_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/urgepay_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_ability/volume_qa_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/activity_recommend_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/closewords_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/duplicate_reply_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/first_response_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/honorific_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/mining_userneed_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/openwords_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/product_recommend_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/quick_language_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/reply_delay_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/respect_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/responsetime_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/servicewords_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/sorry_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/thanks_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/urgeorder_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/detector/service_attitude/urgepay_detector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/model_data/multi_label_bert_classif/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/model_service/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/predictor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_classifier/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_classifier/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_classifier/offline_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_classifier/online_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_classifier/pb_maker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_proto/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_proto/args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_proto/make_merged_model_pb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/bert_proto/make_model_pb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier/args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier/make_merged_model_pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/make_merged_model_pb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier/make_model_pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/make_model_pb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier/pickup_model_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/pickup_model_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/proto_maker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/proto_maker/bert_vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/zhtools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/zhtools/chconv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/zhtools/langconv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/zhtools/xpinyin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/zhtools/zh_wiki.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_base_model_test_py.coverage" NAME="pytest in base_predictor_test.py Coverage Results" MODIFIED="1565956514769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_fast_bert_proto_test_py.coverage" NAME="pytest in fast_bert_proto_test.py Coverage Results" MODIFIED="1565786356339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$fast_bert_proto_client.coverage" NAME="fast_bert_proto_client Coverage Results" MODIFIED="1565838499612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_model/fast_bert_proto" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_pre_and_after_sale_model_test_py.coverage" NAME="pytest in pre_and_after_sale_predictor_test.py Coverage Results" MODIFIED="1565961876543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_do_nothing_predictor_test_py.coverage" NAME="pytest in do_nothing_predictor_test.py Coverage Results" MODIFIED="1566219667784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$make_model_pb.coverage" NAME="make_model_pb Coverage Results" MODIFIED="1572240725672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$model_service.coverage" NAME="model_service Coverage Results" MODIFIED="1565861129402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_service" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_abuse_detector_test_py.coverage" NAME="pytest in abuse_detector_test.py Coverage Results" MODIFIED="1570555181191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$managed_bert_classif_predictor.coverage" NAME="managed_bert_classif_predictor Coverage Results" MODIFIED="1572852141634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_base_predictor_test_py.coverage" NAME="pytest in base_predictor_test.py Coverage Results" MODIFIED="1568206800083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_duplicate_reply_detector_test_py.coverage" NAME="pytest in duplicate_reply_detector_test.py Coverage Results" MODIFIED="1569721858412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_attachment_detector_test_py.coverage" NAME="pytest in attachment_detector_test.py Coverage Results" MODIFIED="1569747057135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$wrong_chinese_detector.coverage" NAME="wrong_chinese_detector Coverage Results" MODIFIED="1572246854028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detector/service_ability" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_abuse_predictor_test_py.coverage" NAME="pytest in abuse_predictor_test.py Coverage Results" MODIFIED="1567150680836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$rabbitmq_publisher_test.coverage" NAME="rabbitmq_publisher_test Coverage Results" MODIFIED="1568207250950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$rabbitmq_streamer.coverage" NAME="rabbitmq_streamer Coverage Results" MODIFIED="1571472885562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_duplicate_reply_model_test_py.coverage" NAME="pytest in duplicate_reply_predictor_test.py Coverage Results" MODIFIED="1565956537107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_duplicate_reply_predictor_test_py.coverage" NAME="pytest in duplicate_reply_predictor_test.py Coverage Results" MODIFIED="1567824105636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/znzj_modeling$pytest_in_blame_detector_test_py.coverage" NAME="pytest in blame_detector_test.py Coverage Results" MODIFIED="1570555188202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="452" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="znzj_modeling" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_train/bert/multi_label_bert_classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5103">
+              <caret line="1268" lean-forward="true" selection-start-line="1268" selection-end-line="1268" />
+              <folding>
+                <element signature="e#646#684#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/make_model_pb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2644">
+              <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="17">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shell_scripts/train_multi_label_classifier.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shell_scripts/transform_to_fast_model.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shell_scripts/transform_to_merged_fast_model.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/pickup_model_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/make_merged_model_pb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_train/bert/biz1_args.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_train/bert/biz2_args.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>InputExample</find>
+      <find>NerProcessor</find>
+      <find>龜</find>
+      <find>簋</find>
+      <find>嚮</find>
+      <find>蝰</find>
+      <find>鸞</find>
+      <find>薤</find>
+      <find>雩</find>
+      <find>獬</find>
+      <find>卽</find>
+      <find>爨</find>
+      <find>籀</find>
+      <find>醐</find>
+      <find>谶</find>
+      <find>.</find>
+      <find>li</find>
+      <find>re</find>
+      <find>proce</find>
+      <find>㐇</find>
+      <find>Flags.</find>
+      <find>biz_task</find>
+      <find>znzj</find>
+      <find>trans</find>
+      <find>offline</find>
+      <find>emo</find>
+      <find>biz</find>
+      <find>emotion</find>
+      <find>ebiz</find>
+      <find>opti</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Exception</replace>
+      <replace>chinese_roberta_wwm_ext_L-12_H-768_A-12</replace>
+      <replace>ask_type</replace>
+      <replace>&quot;embeddings&quot;, &quot;layer_0&quot;, &quot;layer_1&quot;, &quot;layer_2&quot;, &quot;layer_3&quot;, &quot;layer_4&quot;, &quot;layer_5&quot;, &quot;layer_6&quot;, &quot;layer_7&quot;, &quot;layer_8&quot;, &quot;layer_9&quot;, &quot;layer_10&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/deploy/shell/train_direct_bert_classifier.sh" />
+        <option value="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier/make_merged_model_pb.py" />
+        <option value="$PROJECT_DIR$/model_data/abuse_any.regexp" />
+        <option value="$PROJECT_DIR$/model_data/abuse_all.regexp" />
+        <option value="$PROJECT_DIR$/model_train/bert_ner/bert_ner.py" />
+        <option value="$PROJECT_DIR$/model_train/bert_ner/metrics.py" />
+        <option value="$PROJECT_DIR$/deploy/shell/train_bert_ner.sh" />
+        <option value="$PROJECT_DIR$/predictor/direct_bert_predictor/args_online.py" />
+        <option value="$PROJECT_DIR$/predictor/direct_bert_predictor/args_offline.py" />
+        <option value="$PROJECT_DIR$/detector/instant_detector.py" />
+        <option value="$PROJECT_DIR$/detector/offline_detector.py" />
+        <option value="$PROJECT_DIR$/detector/emotion/danger_detector.py" />
+        <option value="$PROJECT_DIR$/model_train/bert_ner/crf_ner.py" />
+        <option value="$PROJECT_DIR$/shell_scripts/eval_direct_bert_classifier.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/run_mq_service.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/run_offline_service.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/run_offline_service_v2.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/run_online_service.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/run_online_service_v2.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/run_service.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/stop_mq_service.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/stop_service.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/test_direct_bert_classifier.sh" />
+        <option value="$PROJECT_DIR$/shell_scripts/train_opinion_target.sh" />
+        <option value="$PROJECT_DIR$/model_train/bert/direct_bert_classifier_v2.py" />
+        <option value="$PROJECT_DIR$/predictor/bert_classifier/online_args.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/emotion_args.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/ebiz_user_args.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/ebiz_merchant_args.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/asktype_user_args_v2.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/asktype_user_args.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/opinion_target_args.py" />
+        <option value="$PROJECT_DIR$/predictor/bert_classifier/base_predictor.py" />
+        <option value="$PROJECT_DIR$/predictor/direct_bert_predictor/managed_bert_classif_predictor.py" />
+        <option value="$PROJECT_DIR$/detector/emotion/complaint_unknown_detector.py" />
+        <option value="$PROJECT_DIR$/detector/emotion/complaint_shop_detector.py" />
+        <option value="$PROJECT_DIR$/detector/emotion/complaint_service_detector.py" />
+        <option value="$PROJECT_DIR$/detector/emotion/complaint_other_detector.py" />
+        <option value="$PROJECT_DIR$/detector/emotion/complaint_logistics_detector.py" />
+        <option value="$PROJECT_DIR$/detector/emotion/complaint_goods_detector.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/model_train/bert/direct_bert_classifier.py" />
+        <option value="$PROJECT_DIR$/shell_scripts/train_direct_bert_classifier.sh" />
+        <option value="$PROJECT_DIR$/predictor/direct_bert_predictor/multi_label_bert_predictor.py" />
+        <option value="$PROJECT_DIR$/utils/pb_maker/multi_label_bert_classifier/args.py" />
+        <option value="$PROJECT_DIR$/utils/pb_maker/multi_label_bert_classifier/make_merged_model_pb.py" />
+        <option value="$PROJECT_DIR$/utils/pb_maker/multi_label_bert_classifier/make_model_pb.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/multi_label_bert_classifier.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/biz1_args.py" />
+        <option value="$PROJECT_DIR$/model_train/bert/biz2_args.py" />
+        <option value="$PROJECT_DIR$/shell_scripts/transform_to_fast_model.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="96" />
+    <option name="y" value="34" />
+    <option name="width" value="1734" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="multi-label-bert-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-label-bert-classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-label-bert-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-label-bert-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="model_train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-label-bert-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-label-bert-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="model_train" type="462c0819:PsiDirectoryNode" />
+              <item name="bert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-label-bert-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-label-bert-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="shell_scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-label-bert-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-label-bert-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-label-bert-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-label-bert-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="fast_model_pb_maker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-label-bert-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-label-bert-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="fast_model_pb_maker" type="462c0819:PsiDirectoryNode" />
+              <item name="multi_label_bert_classifier" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shell_scripts" />
+      <recent name="$PROJECT_DIR$/model_train/bert" />
+      <recent name="$PROJECT_DIR$/detector/emotion" />
+      <recent name="$PROJECT_DIR$/deploy/shell" />
+      <recent name="$PROJECT_DIR$/model_train/bert_ner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/scripts/shell" />
+      <recent name="$PROJECT_DIR$/model_data/bert/ernie" />
+      <recent name="$PROJECT_DIR$/model_train/bert" />
+      <recent name="$PROJECT_DIR$/model_data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.managed_bert_classif_predictor">
+    <configuration name="make_model_pb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="znzj_modeling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/pb_maker/direct_bert_classifier/make_model_pb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="managed_bert_classif_predictor" type="PythonConfigurationType" factoryName="Python">
+      <module name="znzj_modeling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predictor/direct_bert_predictor/multi_label_bert_predictor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rabbitmq_streamer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="znzj_modeling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_service/rabbitmq_streamer_v2.py" />
+      <option name="PARAMETERS" value="--task_mode offline --gpu_id 6" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wrong_chinese_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="znzj_modeling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detector/service_ability/wrong_chinese_detector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in /Users/bubbletea/projects/multi-label-bert-classification/tests/detector/emotion/abuse_detector_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="znzj_modeling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/detector/emotion/abuse_detector_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in /Users/bubbletea/projects/multi-label-bert-classification/tests/detector/emotion/blame_detector_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="znzj_modeling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/detector/emotion/blame_detector_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.managed_bert_classif_predictor" />
+      <item itemvalue="Python.rabbitmq_streamer" />
+      <item itemvalue="Python.make_model_pb" />
+      <item itemvalue="Python.wrong_chinese_detector" />
+      <item itemvalue="Python tests.pytest in /Users/bubbletea/projects/multi-label-bert-classification/tests/detector/emotion/abuse_detector_test.py" />
+      <item itemvalue="Python tests.pytest in /Users/bubbletea/projects/multi-label-bert-classification/tests/detector/emotion/blame_detector_test.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wrong_chinese_detector" />
+        <item itemvalue="Python.make_model_pb" />
+        <item itemvalue="Python.rabbitmq_streamer" />
+        <item itemvalue="Python tests.pytest in /Users/bubbletea/projects/multi-label-bert-classification/tests/detector/emotion/blame_detector_test.py" />
+        <item itemvalue="Python tests.pytest in /Users/bubbletea/projects/multi-label-bert-classification/tests/detector/emotion/abuse_detector_test.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="945e1100-46b4-4be2-82a1-9882bcb88bea" name="Default Changelist" comment="" />
+      <created>1565176742522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565176742522</updated>
+      <workItem from="1565176743826" duration="91865000" />
+      <workItem from="1565923265807" duration="24550000" />
+      <workItem from="1566196355189" duration="134000" />
+      <workItem from="1566196502582" duration="1361000" />
+      <workItem from="1566202855339" duration="32066000" />
+      <workItem from="1566713376521" duration="14061000" />
+      <workItem from="1566806284140" duration="4592000" />
+      <workItem from="1566899140544" duration="843000" />
+      <workItem from="1566910219096" duration="3836000" />
+      <workItem from="1567068799842" duration="9207000" />
+      <workItem from="1567254379281" duration="81108000" />
+      <workItem from="1567930427438" duration="1443000" />
+      <workItem from="1567992407750" duration="109580000" />
+      <workItem from="1568685057917" duration="31851000" />
+      <workItem from="1568942449526" duration="122666000" />
+      <workItem from="1570674813445" duration="389808000" />
+      <workItem from="1573560261241" duration="61037000" />
+      <workItem from="1574215019980" duration="3254000" />
+      <workItem from="1574228456644" duration="30491000" />
+      <workItem from="1574819923159" duration="3149000" />
+    </task>
+    <task id="LOCAL-00001" summary="add notebooks">
+      <created>1568701091095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568701091095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.08 at 20h 18m 05s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.08 at 20h 18m 13s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.08 at 20h 19m 53s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.08 at 20h 21m 00s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.08 at 20h 23m 05s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.08 at 20h 24m 11s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_blame_detector_test_py - 2019.10.08 at 20h 24m 29s.xml">
+      <configuration name="pytest in blame_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.08 at 20h 24m 33s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_abuse_detector_test_py - 2019.10.09 at 01h 19m 42s.xml">
+      <configuration name="pytest in abuse_detector_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_blame_detector_test_py - 2019.10.09 at 01h 19m 49s.xml">
+      <configuration name="pytest in blame_detector_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1016902000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="96" y="34" width="1734" height="1028" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9031532" visible="true" weight="0.2109929" />
+      <window_info id="Structure" order="1" sideWeight="0.09684685" side_tool="true" visible="true" weight="0.2109929" />
+      <window_info id="Favorites" order="2" sideWeight="0.12560387" side_tool="true" weight="0.15628357" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4981837" weight="0.16041666" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7328016" weight="0.16142131" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7657029" weight="0.25025433" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.52110726" side_tool="true" weight="0.092479676" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.4995015" weight="0.20203045" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.8236196" weight="0.10359869" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.47889274" visible="true" weight="0.051282052" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.499003" weight="0.328934" />
+      <window_info anchor="bottom" id="Pylint" order="14" />
+      <window_info anchor="bottom" id="File Transfer" order="15" visible="true" weight="0.0952381" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49892008" weight="0.5029586" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.32984614" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32984614" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.5010799" side_tool="true" weight="0.40378863" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add notebooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add notebooks" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/detector/service_attitude/duplicate_reply_detector_test.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>model_outputs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.model_all.match(msg)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.model_any.match(msg)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.argwhere(res &gt;= 0.45)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>args</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.min_prob.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.min_prob</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>batch_data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/utils/pb_maker/bert_classifier/pb_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/bert_classifier/online_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/ebiz_user_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/ebiz_merchant_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/asktype_user_args_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/asktype_user_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_data/bert/ernie/vocab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226465">
+          <caret line="4600" column="1" lean-forward="true" selection-start-line="4600" selection-start-column="1" selection-end-line="4600" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/bert_classifier/online_predictor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert_proto/ebiz_user_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/emotion/complaint_unknown_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/emotion/complaint_logistics_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/emotion/complaint_goods_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/emotion/complaint_service_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/emotion/complaint_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#31#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/emotion/complaint_other_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert_classifier/bert_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/emotion/complaint_shop_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/model_service/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/proto_maker/bert_vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2870">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_service/offline_service_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_service/rabbitmq_streamer_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5013">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/opinion_target_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/input_fn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/modeling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#688#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/tokenization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#644#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/bert_classifier/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/bert_classifier/offline_predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/bert_classifier/base_predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell_scripts/make_pb.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/direct_bert_predictor/args_offline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="181" column="19" lean-forward="true" selection-start-line="181" selection-start-column="19" selection-end-line="181" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#31#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/direct_bert_predictor/args_online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="52" column="76" lean-forward="true" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictor/direct_bert_predictor/multi_label_bert_predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1945">
+          <caret line="526" lean-forward="true" selection-start-line="526" selection-end-line="526" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_data/multi_label_bert_classif/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/bert_vars.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#31#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#31#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/multi_label_bert_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5103">
+          <caret line="1268" lean-forward="true" selection-start-line="1268" selection-end-line="1268" />
+          <folding>
+            <element signature="e#646#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/pickup_model_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/make_model_pb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2644">
+          <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fast_model_pb_maker/multi_label_bert_classifier/make_merged_model_pb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/biz1_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train/bert/biz2_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell_scripts/train_multi_label_classifier.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell_scripts/transform_to_fast_model.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell_scripts/transform_to_merged_fast_model.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
